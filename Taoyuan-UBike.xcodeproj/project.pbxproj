@@ -12,9 +12,12 @@
 		363E33F921F554EA0056C48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363E33F721F554EA0056C48F /* Main.storyboard */; };
 		363E33FB21F554EF0056C48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363E33FA21F554EF0056C48F /* Assets.xcassets */; };
 		363E33FE21F554EF0056C48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363E33FC21F554EF0056C48F /* LaunchScreen.storyboard */; };
+		7B23DEDB1D960655F9021E09 /* Pods_Taoyuan_UBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACA451C80A27C8382BB16B7 /* Pods_Taoyuan_UBike.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ACA451C80A27C8382BB16B7 /* Pods_Taoyuan_UBike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taoyuan_UBike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D0E4207D4953854002EBF1 /* Pods-Taoyuan-UBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taoyuan-UBike.release.xcconfig"; path = "Target Support Files/Pods-Taoyuan-UBike/Pods-Taoyuan-UBike.release.xcconfig"; sourceTree = "<group>"; };
 		363E33F021F554EA0056C48F /* Taoyuan-UBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taoyuan-UBike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		363E33F321F554EA0056C48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		363E33F521F554EA0056C48F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		363E33FA21F554EF0056C48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		363E33FD21F554EF0056C48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		363E33FF21F554EF0056C48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D19A66EF309731CE567C42 /* Pods-Taoyuan-UBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taoyuan-UBike.debug.xcconfig"; path = "Target Support Files/Pods-Taoyuan-UBike/Pods-Taoyuan-UBike.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B23DEDB1D960655F9021E09 /* Pods_Taoyuan_UBike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				363E33F221F554EA0056C48F /* Taoyuan-UBike */,
 				363E33F121F554EA0056C48F /* Products */,
+				3F18E1C6B55ED5361A1B8CEB /* Pods */,
+				F0FC840D3D30382914910AF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,24 @@
 			path = "Taoyuan-UBike";
 			sourceTree = "<group>";
 		};
+		3F18E1C6B55ED5361A1B8CEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98D19A66EF309731CE567C42 /* Pods-Taoyuan-UBike.debug.xcconfig */,
+				31D0E4207D4953854002EBF1 /* Pods-Taoyuan-UBike.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0FC840D3D30382914910AF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ACA451C80A27C8382BB16B7 /* Pods_Taoyuan_UBike.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 363E340221F554EF0056C48F /* Build configuration list for PBXNativeTarget "Taoyuan-UBike" */;
 			buildPhases = (
+				0F1DE4E06FFF8D550AF51E47 /* [CP] Check Pods Manifest.lock */,
 				363E33EC21F554EA0056C48F /* Sources */,
 				363E33ED21F554EA0056C48F /* Frameworks */,
 				363E33EE21F554EA0056C48F /* Resources */,
@@ -129,6 +155,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F1DE4E06FFF8D550AF51E47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taoyuan-UBike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		363E33EC21F554EA0056C48F /* Sources */ = {
@@ -280,6 +331,7 @@
 		};
 		363E340321F554EF0056C48F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D19A66EF309731CE567C42 /* Pods-Taoyuan-UBike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +349,7 @@
 		};
 		363E340421F554EF0056C48F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31D0E4207D4953854002EBF1 /* Pods-Taoyuan-UBike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
