@@ -6,5 +6,19 @@ target 'Taoyuan-UBike' do
   use_frameworks!
 
   # Pods for Taoyuan-UBike
-
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'RxAlamofire'
+  pod 'RxMKMapView'
+  pod 'SnapKit'
+  pod 'Realm'
+  pod 'RealmSwift'
+  pod 'RxTest'
+  
+  target 'Taoyuan-UBikeTests' do
+    pod 'RxCocoa'
+    pod 'RxSwift'
+    pod 'RxTest'
+  end
 end
