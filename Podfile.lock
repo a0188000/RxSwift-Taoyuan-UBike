@@ -23,9 +23,6 @@ PODS:
     - RxSwift (~> 4.3)
   - RxSwift (4.4.0):
     - RxAtomic (~> 4.4)
-  - RxTest (4.4.0):
-    - RxAtomic (~> 4.4)
-    - RxSwift (~> 4.0)
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
@@ -36,7 +33,6 @@ DEPENDENCIES:
   - RxDataSources
   - RxMKMapView
   - RxSwift
-  - RxTest
   - SnapKit
 
 SPEC REPOS:
@@ -51,7 +47,6 @@ SPEC REPOS:
     - RxDataSources
     - RxMKMapView
     - RxSwift
-    - RxTest
     - SnapKit
 
 SPEC CHECKSUMS:
@@ -65,9 +60,8 @@ SPEC CHECKSUMS:
   RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxMKMapView: 71f1a69a5e3b889662a6ec430006324974418d0c
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
-  RxTest: 19d03286bdc0a3aaea5d61d4cde31fdf4bb8a5ba
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: c0f511c66e3481513a16623c773d528066afc62d
+PODFILE CHECKSUM: a8da3fc2a3767c06c9f9f4aab01197acffb4b84d
 
 COCOAPODS: 1.6.0.beta.2

@@ -14,11 +14,5 @@ target 'Taoyuan-UBike' do
   pod 'SnapKit'
   pod 'Realm'
   pod 'RealmSwift'
-  pod 'RxTest'
-  
-  target 'Taoyuan-UBikeTests' do
-    pod 'RxCocoa'
-    pod 'RxSwift'
-    pod 'RxTest'
-  end
+
 end

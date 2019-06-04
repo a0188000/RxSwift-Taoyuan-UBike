@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3605FD02221AA4FA00C35A67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605FD01221AA4FA00C35A67 /* Constants.swift */; };
-		3605FD0A221B944200C35A67 /* Taoyuan_UBikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605FD09221B944200C35A67 /* Taoyuan_UBikeTests.swift */; };
-		3605FD12221B946900C35A67 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3605FD11221B946900C35A67 /* RxCocoa.framework */; };
-		3605FD14221B946F00C35A67 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3605FD13221B946F00C35A67 /* RxSwift.framework */; };
-		3605FD16221B947400C35A67 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3605FD15221B947400C35A67 /* RxTest.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		3605FD3D221BF0D600C35A67 /* Taoyuan_UBikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3605FD3C221BF0D600C35A67 /* Taoyuan_UBikeUITests.swift */; };
 		363E33F421F554EA0056C48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E33F321F554EA0056C48F /* AppDelegate.swift */; };
 		363E33F921F554EA0056C48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363E33F721F554EA0056C48F /* Main.storyboard */; };
 		363E33FB21F554EF0056C48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363E33FA21F554EF0056C48F /* Assets.xcassets */; };
@@ -41,41 +36,16 @@
 		36E00CDB2213E64C00C29490 /* GeneralHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E00CDA2213E64C00C29490 /* GeneralHelper.swift */; };
 		36E00CDD2213F32300C29490 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E00CDC2213F32300C29490 /* Reachability.swift */; };
 		7B23DEDB1D960655F9021E09 /* Pods_Taoyuan_UBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACA451C80A27C8382BB16B7 /* Pods_Taoyuan_UBike.framework */; };
-		929269A10B8F05D4A11A1D12 /* Pods_Taoyuan_UBike_Taoyuan_UBikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D27485964842A9DA22ABE8 /* Pods_Taoyuan_UBike_Taoyuan_UBikeTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3605FD0C221B944200C35A67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 363E33E821F554EA0056C48F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 363E33EF21F554EA0056C48F;
-			remoteInfo = "Taoyuan-UBike";
-		};
-		3605FD3F221BF0D600C35A67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 363E33E821F554EA0056C48F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 363E33EF21F554EA0056C48F;
-			remoteInfo = "Taoyuan-UBike";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		16D27485964842A9DA22ABE8 /* Pods_Taoyuan_UBike_Taoyuan_UBikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taoyuan_UBike_Taoyuan_UBikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AB219724F0756246EC9231E /* Pods-Taoyuan-UBike-Taoyuan-UBikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taoyuan-UBike-Taoyuan-UBikeTests.debug.xcconfig"; path = "Target Support Files/Pods-Taoyuan-UBike-Taoyuan-UBikeTests/Pods-Taoyuan-UBike-Taoyuan-UBikeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2ACA451C80A27C8382BB16B7 /* Pods_Taoyuan_UBike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taoyuan_UBike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D0E4207D4953854002EBF1 /* Pods-Taoyuan-UBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taoyuan-UBike.release.xcconfig"; path = "Target Support Files/Pods-Taoyuan-UBike/Pods-Taoyuan-UBike.release.xcconfig"; sourceTree = "<group>"; };
 		3605FD01221AA4FA00C35A67 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		3605FD07221B944200C35A67 /* Taoyuan-UBikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taoyuan-UBikeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3605FD09221B944200C35A67 /* Taoyuan_UBikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taoyuan_UBikeTests.swift; sourceTree = "<group>"; };
-		3605FD0B221B944200C35A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3605FD11221B946900C35A67 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3605FD13221B946F00C35A67 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3605FD15221B947400C35A67 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3605FD3A221BF0D600C35A67 /* Taoyuan-UBikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taoyuan-UBikeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3605FD3C221BF0D600C35A67 /* Taoyuan_UBikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taoyuan_UBikeUITests.swift; sourceTree = "<group>"; };
-		3605FD3E221BF0D600C35A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363E33F021F554EA0056C48F /* Taoyuan-UBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taoyuan-UBike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		363E33F321F554EA0056C48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		363E33F821F554EA0056C48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,28 +76,9 @@
 		36E00CDA2213E64C00C29490 /* GeneralHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralHelper.swift; sourceTree = "<group>"; };
 		36E00CDC2213F32300C29490 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		98D19A66EF309731CE567C42 /* Pods-Taoyuan-UBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taoyuan-UBike.debug.xcconfig"; path = "Target Support Files/Pods-Taoyuan-UBike/Pods-Taoyuan-UBike.debug.xcconfig"; sourceTree = "<group>"; };
-		C6F924E2A1CB6A4F3ED84752 /* Pods-Taoyuan-UBike-Taoyuan-UBikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taoyuan-UBike-Taoyuan-UBikeTests.release.xcconfig"; path = "Target Support Files/Pods-Taoyuan-UBike-Taoyuan-UBikeTests/Pods-Taoyuan-UBike-Taoyuan-UBikeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3605FD04221B944200C35A67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3605FD16221B947400C35A67 /* RxTest.framework in Frameworks */,
-				3605FD14221B946F00C35A67 /* RxSwift.framework in Frameworks */,
-				3605FD12221B946900C35A67 /* RxCocoa.framework in Frameworks */,
-				929269A10B8F05D4A11A1D12 /* Pods_Taoyuan_UBike_Taoyuan_UBikeTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3605FD37221BF0D600C35A67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		363E33ED21F554EA0056C48F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,30 +90,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3605FD08221B944200C35A67 /* Taoyuan-UBikeTests */ = {
-			isa = PBXGroup;
-			children = (
-				3605FD09221B944200C35A67 /* Taoyuan_UBikeTests.swift */,
-				3605FD0B221B944200C35A67 /* Info.plist */,
-			);
-			path = "Taoyuan-UBikeTests";
-			sourceTree = "<group>";
-		};
-		3605FD3B221BF0D600C35A67 /* Taoyuan-UBikeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3605FD3C221BF0D600C35A67 /* Taoyuan_UBikeUITests.swift */,
-				3605FD3E221BF0D600C35A67 /* Info.plist */,
-			);
-			path = "Taoyuan-UBikeUITests";
-			sourceTree = "<group>";
-		};
 		363E33E721F554EA0056C48F = {
 			isa = PBXGroup;
 			children = (
 				363E33F221F554EA0056C48F /* Taoyuan-UBike */,
-				3605FD08221B944200C35A67 /* Taoyuan-UBikeTests */,
-				3605FD3B221BF0D600C35A67 /* Taoyuan-UBikeUITests */,
 				363E33F121F554EA0056C48F /* Products */,
 				3F18E1C6B55ED5361A1B8CEB /* Pods */,
 				F0FC840D3D30382914910AF3 /* Frameworks */,
@@ -173,8 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				363E33F021F554EA0056C48F /* Taoyuan-UBike.app */,
-				3605FD07221B944200C35A67 /* Taoyuan-UBikeTests.xctest */,
-				3605FD3A221BF0D600C35A67 /* Taoyuan-UBikeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -316,8 +245,6 @@
 			children = (
 				98D19A66EF309731CE567C42 /* Pods-Taoyuan-UBike.debug.xcconfig */,
 				31D0E4207D4953854002EBF1 /* Pods-Taoyuan-UBike.release.xcconfig */,
-				1AB219724F0756246EC9231E /* Pods-Taoyuan-UBike-Taoyuan-UBikeTests.debug.xcconfig */,
-				C6F924E2A1CB6A4F3ED84752 /* Pods-Taoyuan-UBike-Taoyuan-UBikeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -337,44 +264,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3605FD06221B944200C35A67 /* Taoyuan-UBikeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3605FD10221B944200C35A67 /* Build configuration list for PBXNativeTarget "Taoyuan-UBikeTests" */;
-			buildPhases = (
-				E0E21FF8B07436A4623DFCDD /* [CP] Check Pods Manifest.lock */,
-				3605FD03221B944200C35A67 /* Sources */,
-				3605FD04221B944200C35A67 /* Frameworks */,
-				3605FD05221B944200C35A67 /* Resources */,
-				134B6541BFAC1231B861821D /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3605FD0D221B944200C35A67 /* PBXTargetDependency */,
-			);
-			name = "Taoyuan-UBikeTests";
-			productName = "Taoyuan-UBikeTests";
-			productReference = 3605FD07221B944200C35A67 /* Taoyuan-UBikeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3605FD39221BF0D600C35A67 /* Taoyuan-UBikeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3605FD41221BF0D600C35A67 /* Build configuration list for PBXNativeTarget "Taoyuan-UBikeUITests" */;
-			buildPhases = (
-				3605FD36221BF0D600C35A67 /* Sources */,
-				3605FD37221BF0D600C35A67 /* Frameworks */,
-				3605FD38221BF0D600C35A67 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3605FD40221BF0D600C35A67 /* PBXTargetDependency */,
-			);
-			name = "Taoyuan-UBikeUITests";
-			productName = "Taoyuan-UBikeUITests";
-			productReference = 3605FD3A221BF0D600C35A67 /* Taoyuan-UBikeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		363E33EF21F554EA0056C48F /* Taoyuan-UBike */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 363E340221F554EF0056C48F /* Build configuration list for PBXNativeTarget "Taoyuan-UBike" */;
@@ -404,14 +293,6 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "沈維庭";
 				TargetAttributes = {
-					3605FD06221B944200C35A67 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 363E33EF21F554EA0056C48F;
-					};
-					3605FD39221BF0D600C35A67 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 363E33EF21F554EA0056C48F;
-					};
 					363E33EF21F554EA0056C48F = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -431,27 +312,11 @@
 			projectRoot = "";
 			targets = (
 				363E33EF21F554EA0056C48F /* Taoyuan-UBike */,
-				3605FD06221B944200C35A67 /* Taoyuan-UBikeTests */,
-				3605FD39221BF0D600C35A67 /* Taoyuan-UBikeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3605FD05221B944200C35A67 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3605FD38221BF0D600C35A67 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		363E33EE21F554EA0056C48F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,50 +353,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		134B6541BFAC1231B861821D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Taoyuan-UBike-Taoyuan-UBikeTests/Pods-Taoyuan-UBike-Taoyuan-UBikeTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
-				"${BUILT_PRODUCTS_DIR}/RxMKMapView/RxMKMapView.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxMKMapView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taoyuan-UBike-Taoyuan-UBikeTests/Pods-Taoyuan-UBike-Taoyuan-UBikeTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DC49C08DD7DD00C0E26DF932 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -551,7 +372,6 @@
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxMKMapView/RxMKMapView.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -568,7 +388,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxMKMapView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,47 +395,9 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taoyuan-UBike/Pods-Taoyuan-UBike-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E0E21FF8B07436A4623DFCDD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Taoyuan-UBike-Taoyuan-UBikeTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3605FD03221B944200C35A67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3605FD0A221B944200C35A67 /* Taoyuan_UBikeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3605FD36221BF0D600C35A67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3605FD3D221BF0D600C35A67 /* Taoyuan_UBikeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		363E33EC21F554EA0056C48F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -650,19 +431,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		3605FD0D221B944200C35A67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 363E33EF21F554EA0056C48F /* Taoyuan-UBike */;
-			targetProxy = 3605FD0C221B944200C35A67 /* PBXContainerItemProxy */;
-		};
-		3605FD40221BF0D600C35A67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 363E33EF21F554EA0056C48F /* Taoyuan-UBike */;
-			targetProxy = 3605FD3F221BF0D600C35A67 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		363E33F721F554EA0056C48F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -683,86 +451,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3605FD0E221B944200C35A67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AB219724F0756246EC9231E /* Pods-Taoyuan-UBike-Taoyuan-UBikeTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Taoyuan-UBikeTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weiting.Taoyuan-UBikeTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taoyuan-UBike.app/Taoyuan-UBike";
-			};
-			name = Debug;
-		};
-		3605FD0F221B944200C35A67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6F924E2A1CB6A4F3ED84752 /* Pods-Taoyuan-UBike-Taoyuan-UBikeTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Taoyuan-UBikeTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weiting.Taoyuan-UBikeTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taoyuan-UBike.app/Taoyuan-UBike";
-			};
-			name = Release;
-		};
-		3605FD42221BF0D600C35A67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Taoyuan-UBikeUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weiting.Taoyuan-UBikeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Taoyuan-UBike";
-			};
-			name = Debug;
-		};
-		3605FD43221BF0D600C35A67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Taoyuan-UBikeUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.weiting.Taoyuan-UBikeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Taoyuan-UBike";
-			};
-			name = Release;
-		};
 		363E340021F554EF0056C48F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -922,24 +610,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3605FD10221B944200C35A67 /* Build configuration list for PBXNativeTarget "Taoyuan-UBikeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3605FD0E221B944200C35A67 /* Debug */,
-				3605FD0F221B944200C35A67 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3605FD41221BF0D600C35A67 /* Build configuration list for PBXNativeTarget "Taoyuan-UBikeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3605FD42221BF0D600C35A67 /* Debug */,
-				3605FD43221BF0D600C35A67 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		363E33EB21F554EA0056C48F /* Build configuration list for PBXProject "Taoyuan-UBike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
