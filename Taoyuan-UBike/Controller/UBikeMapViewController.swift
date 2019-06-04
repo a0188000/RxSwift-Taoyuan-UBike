@@ -25,6 +25,8 @@ class UBikeMapViewController: UIViewController {
     // DisposeBag
     private let disposeBag: DisposeBag = DisposeBag()
     
+    private var selectedUBikeLocation: CLLocationCoordinate2D?
+    
     private var informationViewController: InformationViewController!
     private var uBikeDetailViewModel: InformationViewModelProtocol = InformationViewModel()
     
@@ -53,6 +55,7 @@ class UBikeMapViewController: UIViewController {
                 guard let `self` = self else { return }
                 let info = $0
                 self.setRegion($0.coordinate)
+                self.selectedUBikeLocation = $0.coordinate
                 self.mapView.annotations.forEach({ (ann) in
                     if ann.title == info.title {
                         self.mapView.selectAnnotation(ann, animated: true)
@@ -139,6 +142,7 @@ class UBikeMapViewController: UIViewController {
             .didDeselectAnnotationView
             .map({ [weak self] _ in
                 if let `self` = self {
+                    self.selectedUBikeLocation = nil
                     self.mapView.removeOverlays(self.mapView.overlays)
                 }
                 return false
@@ -157,6 +161,10 @@ class UBikeMapViewController: UIViewController {
         self.addChild(self.informationViewController)
         self.view.addSubview(informationViewController.view)
 
+        self.uBikeDetailViewModel.navigationButtonTap
+            .bind(onNext: self.openNavigationApplication)
+            .disposed(by: self.disposeBag)
+        
         self.uBikeDetailViewModel.routeButtonTap
             .bind(to: self.viewModel.routeButtonTap)
             .disposed(by: self.disposeBag)
@@ -164,6 +172,14 @@ class UBikeMapViewController: UIViewController {
     
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
         self.mapView.setRegion(MKCoordinateRegion(center: coordinate, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)), animated: true)
+    }
+    
+    private func openNavigationApplication() {
+        guard let location = self.selectedUBikeLocation else { return }
+        let currentLocation = MKMapItem.forCurrentLocation()
+        let toLocation = MKMapItem(placemark: MKPlacemark(coordinate: location))
+        MKMapItem.openMaps(with: [currentLocation, toLocation], launchOptions: [MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving,
+                                                                                MKLaunchOptionsShowsTrafficKey:true])
     }
 }
 

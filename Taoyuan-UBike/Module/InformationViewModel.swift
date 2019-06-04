@@ -16,6 +16,7 @@ protocol InformationViewModelProtocol {
     var selectedAnnotationView: BehaviorSubject<Bool> { get }
     var didSelectedUBikeInfo: PublishRelay<RecordViewModel> { get }
     var routeButtonTap: PublishSubject<Void> { get }
+    var navigationButtonTap: PublishSubject<Void> { get }
     
     var searchValue: BehaviorSubject<String> { get }
     var filteredUBikeInfos: BehaviorSubject<[RecordViewModel]> { get }
@@ -27,6 +28,7 @@ class InformationViewModel: InformationViewModelProtocol {
     var selectedAnnotationView: BehaviorSubject<Bool> = BehaviorSubject(value: false)
     var didSelectedUBikeInfo: PublishRelay<RecordViewModel> = PublishRelay()
     var routeButtonTap: PublishSubject<Void> = PublishSubject()
+    var navigationButtonTap: PublishSubject<Void> = PublishSubject()
     
     // Search
     var searchValue: BehaviorSubject<String> = BehaviorSubject(value: "")

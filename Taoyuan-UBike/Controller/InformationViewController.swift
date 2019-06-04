@@ -74,6 +74,7 @@ class InformationViewController: UIViewController {
             $0.placeholder = "搜尋站點"
             $0.sizeToFit()
             $0.barStyle = .default
+            $0.delegate = self
         }
     }
     
@@ -136,6 +137,10 @@ class InformationViewController: UIViewController {
     }
     
     private func bindAction() {
+        self.infoView.navigationButton.rx.tap
+            .bind(to: self.viewModel.navigationButtonTap)
+            .disposed(by: self.disposeBag)
+        
         self.infoView.routeButton.rx.tap
             .bind(to: self.viewModel.routeButtonTap)
             .disposed(by: self.disposeBag)
@@ -215,6 +220,12 @@ class InformationViewController: UIViewController {
     
     @objc private func keyboardWillHide(_ notification: Notification) {
         
+    }
+}
+
+extension InformationViewController: UISearchBarDelegate {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        self.view.endEditing(false)
     }
 }
 
